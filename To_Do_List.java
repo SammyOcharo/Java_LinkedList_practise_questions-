@@ -21,6 +21,7 @@ class ToDoList{
         this.head = null;
     }
 
+    //add task
     public void addTask(String description){
         Task newTask = new Task(description);
 
